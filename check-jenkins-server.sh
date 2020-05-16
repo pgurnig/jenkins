@@ -37,7 +37,7 @@ echo "-----------------------------------------------" >> jenkins-check.txt
 echo "Jenkins PID" >> jenkins-check.txt
 echo "-----------------------------------------------" >> jenkins-check.txt
 # pgrep -u jenkins >> jenkins-check.txt
-ps aux | grep jenkins | grep -v grep
+ps aux | grep jenkins | grep -v grep >> jenkins-check.txt
 
 # curl userdata
 echo "" >> jenkins-check.txt
