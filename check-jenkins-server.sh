@@ -7,7 +7,6 @@ echo "uname -a" >> jenkins-check.txt
 echo "-----------------------------------------------" >> jenkins-check.txt
 uname -a >> jenkins-check.txt
 
-
 # check to see if git is installed
 echo "" >> jenkins-check.txt
 echo "-----------------------------------------------" >> jenkins-check.txt
