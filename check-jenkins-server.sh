@@ -1,6 +1,11 @@
 echo "Table of Contents" > jenkins-check.txt
 echo "This file contains the output as the result of checking for Git, Jenkins and Maven as well as user data from the initial boot sequence." >> jenkins-check.txt
 
+echo "-----------------------------------------------" >> jenkins-check.txt
+echo "uname -a" >> jenkins-check.txt
+echo "-----------------------------------------------" >> jenkins-check.txt
+uname -a >> jenkins-check.txt
+
 
 # check to see if git is installed
 echo "-----------------------------------------------" >> jenkins-check.txt
